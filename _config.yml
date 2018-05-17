@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+excerpt_separator: <!--more-->
+
+plugins: [jekyll-paginate]
+
+# Setup
+title:               Thoughts on Code
+tagline:             '@skryl'
+description:         'Musings about code and technology.'
+url:                 http://skryl.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Alex Skryl
+  url:               https://twitter.com/skryl
+  email:             aleksey.skryl@gmail.com
+  github:            https://github.com/skryl
+  homepage:          https://skryl.org
