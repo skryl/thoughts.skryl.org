@@ -8,6 +8,8 @@ plugins:
   - jekyll-paginate
   - jekyll-analytics
 
+exclude: [vendor]
+
 # Setup
 title:               Thoughts on Code
 tagline:             '@skryl'
