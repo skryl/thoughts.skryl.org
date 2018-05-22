@@ -1,4 +1,5 @@
 # Thoughts on Code
+![Travis CI](https://travis-ci.org/skryl/skryl.github.io.svg?branch=master "Travis CI")
 
 Musings about code and technology.
 
