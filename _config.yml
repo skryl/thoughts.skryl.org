@@ -4,7 +4,9 @@
 permalink:           pretty
 excerpt_separator: <!--more-->
 
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-analytics
 
 # Setup
 title:               Thoughts on Code
@@ -21,3 +23,7 @@ author:
   email:             aleksey.skryl@gmail.com
   github:            https://github.com/skryl
   homepage:          https://skryl.org
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-29940604-1
