@@ -12,8 +12,8 @@ exclude: [vendor]
 
 # Setup
 title:               Thoughts on Code
-tagline:             '@skryl'
-description:         'Musings about code and technology.'
+tagline:             '@_skryl_'
+description:         'Musings on code and technology'
 url:                 http://blog.skryl.org
 baseurl:             ''
 paginate:            5

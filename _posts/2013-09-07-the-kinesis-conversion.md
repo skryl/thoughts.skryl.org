@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Kinesis Conversion
+# http://tech.skryl.org/post/60613686455/the-kinesis-conversion
 ---
 
 I recently decided to undertake yet another keyboard modification project. You may be familiar with the popular [Kinesis Advantage](https://deskthority.net/wiki/Kinesis_Advantage) ergonomic keyboard. Yes, the one with the crazy contoured shape. Well, mine has been lying dormant in the back of the closet for months due to the fact that I hate the feel of the Cherry Brown switches which it ships with from the factory (you can get it with Cherry Reds also but I do not like them either). Having taken a peek inside the case of the Advantage, a potential switch swap (to Cherry Blues) did not appear too difficult, so I finally made the move to order some parts and do the swap.
