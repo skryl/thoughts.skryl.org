@@ -5,6 +5,7 @@ published: true
 tags:
   - fiction
 redirect_from:
+  - /post/34719949942/forgotten
   - /post/34719949942
 ---
 

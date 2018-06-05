@@ -5,6 +5,7 @@ published: true
 tags:
   - fiction
 redirect_from:
+  - /post/46022436631/uncertainty
   - /post/46022436631
 ---
 
