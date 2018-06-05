@@ -17,6 +17,8 @@ description:         'Musings about code and technology.'
 url:                 http://blog.skryl.org
 baseurl:             ''
 paginate:            5
+host:                localhost
+port:                4000
 
 # About/contact
 author:
