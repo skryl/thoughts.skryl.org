@@ -1,0 +1,22 @@
+<div class="sharebuttons">
+  <ul>
+    <li class="reddit">
+      <a href="http://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"
+        " | uri_escape }}" target="_blank">
+        <i class="fab fa-reddit-square fa-2x"></i>
+      </a>
+    </li>
+    <li class="hn">
+      <a href="http://news.ycombinator.com/submitlink?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&t={{ page.title | default:"
+        " | uri_escape}}" target="_blank">
+        <i class="fab fa-hacker-news-square fa-2x"></i>
+      </a>
+    </li>
+    <li class="twitter">
+      <a href="https://twitter.com/intent/tweet?via=_skryl_&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&text={{ page.title | default:"
+        " | uri_escape}}" target="_blank">
+        <i class="fab fa-twitter-square fa-2x"></i>
+      </a>
+    </li>
+  </ul>
+</div>

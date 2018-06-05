@@ -78,3 +78,5 @@ So was it all worth it? At first I wasn’t sure. The springs from the Cherry Br
 I have typed on quite a few other mechanical keyboards since the arrival of my first Leopold. In the end, the Cherry Blues ended up growing on me and are currently my favorite switch. The Ergo Clear board is what I use for work on account of the noise. As far as the layout and construction goes, I love the 87 key form factor and the build quality of the FC200R. I own three Leopolds (Blue, Ergo Clear, Red) and a [Realforce 86U](http://elitekeyboards.com/products.php?sub=topre_keyboards,rftenkeyless&pid=rf_se1700) Topre board. If you type for a living and have never owned a mechanical keyboard, there is no excuse not to invest in one. They come in all shapes and sizes, and can be easily resold for most of their retail value if for some reason you’re unsatisfied. Your hands will thank you and your coworkers will be jealous (or really annoyed). Happy Hacking!
 
 ![Swap 13]({{ "/assets/images/20120810/13.jpg" | absolute_url }})
+
+{% include share.html %}

@@ -78,3 +78,5 @@ Replace the old thumb clusters with the new ones, re-attach the main PCB and re-
 ![Process 11]({{ "/assets/images/20130907/19.jpg" | absolute_url }})
 
 The swap takes a couple of hours and is well worth it if you prefer the feel of the Cherry Blue switches.
+
+{% include share.html %}

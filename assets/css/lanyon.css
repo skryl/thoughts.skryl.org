@@ -406,6 +406,51 @@ a.sidebar-nav-item:focus {
   margin-bottom: 1rem;
 }
 
+/* Share buttons */
+
+.sharebuttons {
+  margin: 0 auto 0 auto;
+}
+
+.sharebuttons ul {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.sharebuttons ul li {
+  display: inline;
+}
+
+.sharebuttons ul li a {
+  text-decoration: none;
+}
+
+.sharebuttons ul li i {
+  width: 40px;
+  height: 40px;
+}
+
+.sharebuttons .reddit i {
+  color: #FF4500;
+  background: white;
+}
+
+.sharebuttons .hn i {
+  color: #F0652F;
+  background: white;
+}
+
+.sharebuttons .twitter i {
+  color: #1DA1F2;
+  background: white;
+}
+
+.sharebuttons .linkedin i {
+  color: #0077B5;
+  background: white;
+}
+
+
 /* Related posts */
 .related {
   padding-top: 2rem;
