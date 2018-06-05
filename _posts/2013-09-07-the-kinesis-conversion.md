@@ -2,7 +2,7 @@
 layout: post
 title: The Kinesis Conversion
 tags:
-  - keyboard
+  - keyboards
   - typing
 redirect_from:
   - /post/60613686455/the-kinesis-conversion

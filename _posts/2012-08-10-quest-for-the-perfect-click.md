@@ -2,7 +2,7 @@
 layout: post
 title: Quest for the Perfect Click
 tags:
-  - keyboard
+  - keyboards
   - typing
 redirect_from:
   - /post/28530550318/a-quest-for-the-perfect-click
