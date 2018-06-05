@@ -2,7 +2,6 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-baseurl:             blog.skryl.org
 excerpt_separator: <!--more-->
 
 plugins:
@@ -15,7 +14,7 @@ exclude: [vendor]
 title:               Thoughts on Code
 tagline:             '@skryl'
 description:         'Musings about code and technology.'
-url:                 http://skryl.github.io
+url:                 http://blog.skryl.org
 baseurl:             ''
 paginate:            5
 
