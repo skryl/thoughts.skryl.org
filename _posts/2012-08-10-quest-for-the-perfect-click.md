@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Quest for the Perfect Click
-# http://tech.skryl.org/post/28530550318/a-quest-for-the-perfect-click
+redirect_from:
+  - /post/28530550318/a-quest-for-the-perfect-click
 ---
 
 While searching for reasonably priced [mechanical keyboard](http://www.overclock.net/forum/373-keyboards/491752-official-mechanical-keyboard-guide.html), I decided to pillage the archives of the [keyboard](https://geekhack.org) [enthusiast](https://deskthority.net) community to learn what I could about what makes these bad boys click, and to put together a list of contenders I wanted to test personally.
