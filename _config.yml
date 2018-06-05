@@ -8,12 +8,13 @@ plugins:
   - jekyll-paginate
   - jekyll-analytics
   - jekyll-redirect-from
+  - jekyll-tagging-related_posts
 
 exclude: [vendor]
 
 # Setup
-title:               Thoughts on Code
-tagline:             '@_skryl_'
+title:               Thoughts
+tagline:             '@skryl.org'
 description:         'Musings on code and technology'
 url:                 http://blog.skryl.org
 baseurl:             ''
@@ -28,6 +29,11 @@ author:
   email:             aleksey.skryl@gmail.com
   github:            https://github.com/skryl
   homepage:          https://skryl.org
+  contact:
+    linkedin:  https://www.linkedin.com/in/skryl
+    github:    https://github.com/skryl
+    twitter:   https://twitter.com/_skryl_
+
 
 jekyll_analytics:
   GoogleAnalytics:

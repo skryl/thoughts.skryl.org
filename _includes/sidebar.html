@@ -12,12 +12,30 @@
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
     <a class="sidebar-nav-item" href="{{ site.baseurl }}/archive">Archive</a>
     <a class="sidebar-nav-item" href="{{ site.author.homepage}}">About</a>
-    <a class="sidebar-nav-item" href="{{ site.author.github}}">GitHub</a>
   </nav>
+
+
+  <div class="sidebar-item">
+    <div class="row">
+      <div class="span10 offset1">
+        <div class="social-icons">
+          <ul>
+            {% for contact in site.author.contact %}
+            <a href="{{ contact[1] }}">
+              <i class="fab fa-{{ contact[0] }}" aria-hidden="true"></i>
+            </a>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} All rights reserved
     </p>
   </div>
+
+
 </div>

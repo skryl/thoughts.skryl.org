@@ -1,6 +1,10 @@
 ---
 layout: post
 title: NAND to MIPS
+tags:
+  - cpu
+  - nand
+  - mips
 ---
 
 A crash course in computer architecture. This is a presentation I put together during my time at [Recurse Center](https://recurse.com) to introduce my fellow Recursers to basic CPU design.
