@@ -14,4 +14,6 @@ A crash course in computer architecture. This is a presentation I put together d
 
 <iframe src="//slides.com/skryl/nand-to-mips/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<!--more-->
+
 {% include share.html %}
