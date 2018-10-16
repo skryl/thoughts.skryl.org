@@ -20,6 +20,8 @@ layout: default
   {% include related.html %}
 {% endif %}
 
-<!-- {% if page.comments == true %} -->
-{% include comments.html %}
-<!-- {% endif %} -->
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}
+
+{% include pager.html %}

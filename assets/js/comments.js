@@ -6,8 +6,7 @@
     var form = this;
 
     $(form).addClass("disabled");
-    $("#comment-form-submit").html(
-      '<svg class="icon spin"><use xlink:href="/assets/icons/icons.svg#icon-loading"></use></svg> Loading...'
+    $("#comment-form-submit").html('Loading...'
     );
 
     $.ajax({
@@ -23,7 +22,7 @@
           .removeClass("notice--danger")
           .addClass("notice--success");
         showAlert(
-          '<strong>Thanks for your comment!</strong> It is <a href="https://github.com/mmistakes/made-mistakes-jekyll/pulls">currently pending</a> and will show on the site once approved.'
+          '<strong>Thanks for your comment!</strong> It is <a href="https://github.com/skryl/blog.skryl.org/pulls">currently pending</a> and will show on the site once approved.'
         );
       },
       error: function(err) {
