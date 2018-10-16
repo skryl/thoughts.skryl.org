@@ -204,7 +204,7 @@
    }
 
    form button,
-   form .btn,
+   form .button,
    input[type=submit] {
      appearance: none;
      cursor: pointer;
@@ -402,12 +402,12 @@
   max-width: 50%;
 }
 
-.section .btn {
+.section .button {
   background-color: #222831;
   color: #fff !important;
 }
 
-.section .btn:hover {
+.section .button:hover {
   background-color: #383e46;
 }
 
@@ -420,13 +420,13 @@
   margin-bottom: 0;
 }
 
-.section-text a:not(.btn) {
+.section-text a:not(.button) {
   border-bottom: 1px dotted currentColor;
   color: currentColor;
   text-decoration: none;
 }
 
-.section-text a:not(.btn):hover {
+.section-text a:not(.button):hover {
   border-bottom-style: solid;
 }
 
@@ -535,12 +535,12 @@
   text-shadow: 1px 1px 1px rgba(29, 31, 35, 0.75);
 }
 
-.section--inverse .btn {
+.section--inverse .button {
   background-color: #fff;
   color: #1d1f23 !important;
 }
 
-.section--inverse .btn:hover {
+.section--inverse .button:hover {
   background-color: #e8e9e9;
 }
 
@@ -557,11 +557,11 @@
   text-shadow: 1px 1px 1px rgba(21, 16, 14, 0.75);
 }
 
-.section--about .btn {
+.section--about .button {
   color: #15100e !important;
 }
 
-.section--about .btn:hover {
+.section--about .button:hover {
   background-color: #e8e7e7;
 }
 
@@ -578,18 +578,18 @@
   text-shadow: 1px 1px 1px rgba(55, 18, 50, 0.75);
 }
 
-.section--work .btn {
+.section--work .button {
   color: #371232 !important;
 }
 
-.section--work .btn:hover {
+.section--work .button:hover {
   background-color: #ebe7eb;
 }
 
 /* ==========================================================================
    Buttons
    ========================================================================== */
-.btn {
+.button {
   background-color: #00638a;
   border-radius: 0.25em;
   border: 0;
@@ -613,118 +613,118 @@
   /* social buttons */
 }
 
-.btn:hover {
+.button:hover {
   background-color: #3382a1;
   color: #fff;
 }
 
-.btn:visited {
+.button:visited {
   color: #fff;
 }
 
-.btn:active {
+.button:active {
   transform: scale(0.95);
 }
 
-.btn:focus {
+.button:focus {
   background-color: #004f6e;
 }
 
-.btn .icon {
+.button .icon {
   margin-right: 0.5em;
 }
 
-.btn--group {
+.button--group {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
   flex-direction: row;
 }
 
-.btn--group .btn {
+.button--group .button {
   margin-bottom: 0.25em;
 }
 
-.btn--group .btn+.btn {
+.button--group .button+.button {
   margin-left: 0.25em;
 }
 
-.btn--block {
+.button--block {
   display: block;
   width: 100%;
 }
 
-.btn--block+.btn--block {
+.button--block+.button--block {
   margin-top: 1rem;
 }
 
-.btn--inverse {
+.button--inverse {
   background-color: #fff;
   color: #000 !important;
   outline: 0.125em solid #000;
 }
 
-.btn--inverse:hover {
+.button--inverse:hover {
   background-color: #e6e6e6;
   outline: 0.125em solid #000;
 }
 
-.btn--light-outline {
+.button--light-outline {
   background-color: transparent;
   border: 1px solid #fff !important;
 }
 
-.btn--info {
+.button--info {
   background-color: #1c7cd6;
 }
 
-.btn--info:hover {
+.button--info:hover {
   background-color: #1663ab;
 }
 
-.btn--warning {
+.button--warning {
   background-color: #fcc419;
 }
 
-.btn--warning:hover {
+.button--warning:hover {
   background-color: #ca9d14;
 }
 
-.btn--success {
+.button--success {
   background-color: #40c057;
 }
 
-.btn--success:hover {
+.button--success:hover {
   background-color: #339a46;
 }
 
-.btn--danger {
+.button--danger {
   background-color: #f03e3e;
 }
 
-.btn--danger:hover {
+.button--danger:hover {
   background-color: #c03232;
 }
 
-.btn--disabled {
+.button--disabled {
   box-shadow: none;
   cursor: not-allowed;
   opacity: 0.65;
   pointer-events: none;
 }
 
-.btn--facebook {
+.button--facebook {
   background-color: #3b5998;
 }
 
-.btn--facebook:hover {
+.button--facebook:hover {
   background-color: #2f477a;
 }
 
-.btn--twitter {
+.button--twitter {
   background-color: #1da1f2;
 }
 
-.btn--twitter:hover {
+.button--twitter:hover {
   background-color: #1781c2;
 }
