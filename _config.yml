@@ -36,6 +36,7 @@ author:
     linkedin:  https://www.linkedin.com/in/skryl
 
 staticman:
+  api:    'staticman3.herokuapp.com'
   branch: 'master'
 
 recaptcha:
