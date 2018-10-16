@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NAND to MIPS
+comments: true
 tags:
   - cpu
   - nand

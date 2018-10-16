@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Kinesis Conversion
+comments: true
 tags:
   - keyboards
   - typing

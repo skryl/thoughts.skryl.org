@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Quest for the Perfect Click
+comments: true
 tags:
   - keyboards
   - typing
