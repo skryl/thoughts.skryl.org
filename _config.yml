@@ -17,6 +17,7 @@ title:               Thoughts
 tagline:             '@skryl.org'
 description:         'Musings on code and technology'
 url:                 http://blog.skryl.org
+repository:          'skryl/blog.skryl.org'
 baseurl:             ''
 paginate:            5
 host:                localhost
@@ -34,6 +35,12 @@ author:
     twitter:   https://twitter.com/_skryl_
     linkedin:  https://www.linkedin.com/in/skryl
 
+staticman:
+  branch: 'master'
+
+recaptcha:
+  sitekey: '6LfjXXUUAAAAADC7c2jCRMxBwa5u1pAs-PISea6V'
+  secret: '6LfjXXUUAAAAACqGXg0jgXSkUVOVRToccdf3G0KS'
 
 # Tracking
 jekyll_analytics:
