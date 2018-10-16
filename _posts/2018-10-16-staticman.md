@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Staticman
-published: true
+published: false
 comments: true
 tags:
   - tech
