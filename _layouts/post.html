@@ -2,6 +2,18 @@
 layout: default
 ---
 
+{% if page.toc %}
+  <aside class="sidebar__right sticky">
+    <nav class="toc">
+      <header>
+        <h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label |
+          default: 'Overview' }}</h4>
+      </header>
+      {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+    </nav>
+  </aside>
+{% endif %}
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
