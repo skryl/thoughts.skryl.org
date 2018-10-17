@@ -16,12 +16,12 @@ layout: default
   {{ content }}
 </div>
 
-{% if site.related_posts.size >= 1 %}
-  {% include related.html %}
-{% endif %}
-
 {% if page.comments == true %}
   {% include comments.html %}
+{% endif %}
+
+{% if site.related_posts.size >= 1 %}
+  {% include related.html %}
 {% endif %}
 
 {% include pager.html %}
