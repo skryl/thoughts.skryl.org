@@ -1,0 +1,64 @@
+/*
+   Paginator
+   ========================================================================== */
+
+.pager {
+  @include clearfix();
+  margin: 2rem 0;
+
+  .icon {
+    fill: $text-color;
+  }
+
+  ul {
+    @include list-unstyled;
+    display: flex;
+    flex-direction: row;
+
+    >li {
+      flex: 1;
+    }
+
+    li+li {
+      margin-top: 0.125em;
+      margin-left: 0.125em;
+      margin-top: 0;
+    }
+  }
+
+  a {
+    display: block;
+    line-height: 1.5;
+    text-decoration: none;
+
+    &:hover {
+      .icon {
+        fill: $accent-color;
+      }
+    }
+
+    &.previous {
+      text-align: left;
+    }
+
+    &.next {
+      text-align: right;
+    }
+  }
+}
+
+.pager-label,
+.pager-title {
+  display: block;
+}
+
+.pager-label {
+  color: $text-color;
+  font-family: $base-font-family;
+  font-weight: bold;
+}
+
+.pager-title {
+  color: tint($text-color, 40%);
+  font-size: 0.8em;
+}
