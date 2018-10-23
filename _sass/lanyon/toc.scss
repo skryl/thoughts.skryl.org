@@ -1,90 +1,79 @@
 /*
      Table of contents navigation
      ========================================================================== */
-.sidebar__toc {
+
+.toc__sidebar{
   margin-bottom: 1em;
 
   @include breakpoint($large) {
     position: fixed;
-    top: 0em;
-    left: 0em;
+    top: 4em;
+    left: 1em;
     display: block;
-    padding-left: 2em;
     z-index: 999;
-    width: $right-sidebar-width;
-    margin-right: -1 * $right-sidebar-width;
 
-    &.sticky {
-      @include clearfix();
-      position: -webkit-sticky;
-      position: sticky;
-      float: right;
-    }
+    // &.sticky {
+    //   @include clearfix();
+    //   position: -webkit-sticky;
+    //   position: sticky;
+    //   float: right;
+    // }
   }
-
 }
 
-
-.toc {
-  font-family: $sans-serif-narrow;
+.toc__title {
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  font-size: $type-size-5;
+  font-weight: bold;
   color: $gray;
-  background-color: $background-color;
-  // border: 1px solid $border-color;
-  // border-radius: $border-radius;
-  -webkit-box-shadow: $box-shadow;
-  box-shadow: $box-shadow;
-
-  .nav__title {
-    color: #fff;
-    font-size: $type-size-6;
-    background: $gray;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
-  }
 }
+
 
 .toc__menu {
+  font-size: 0.8em;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.toc__menu > ul {
+  counter-reset: section;
+  list-style-type: none;
   margin: 0;
-  padding: 0;
-  width: 100%;
-  list-style: none;
-  font-size: $type-size-6;
 
-  @include breakpoint($large) {
-    font-size: $type-size-7;
-  }
-
-  a {
+  li {
     display: block;
-    padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
-    font-weight: bold;
-    line-height: 1.5;
-    // border-bottom: 1px solid $border-color;
 
-    &:hover {
-      color: $text-color;
+    a {
+      color: $gray;
+      text-decoration: none;
+
+      &:hover {
+        // text-decoration: underline;
+      }
     }
   }
 
-  li ul>li a {
-    padding-left: 1.25rem;
-    font-weight: normal;
+  > li {
+    counter-increment: section;
+
+    > ul {
+      padding-left: 1em;
+    }
   }
 
-  li ul li ul>li a {
-    padding-left: 1.75rem;
-  }
+  ul {
+    counter-reset: subsection;
+    list-style-type: none;
+    margin: 0;
 
-  li ul li ul li ul>li a {
-    padding-left: 2.25rem;
-  }
+    > li {
+      counter-increment: subsection;
 
-  li ul li ul li ul li ul>li a {
-    padding-left: 2.75rem;
-  }
-
-  li ul li ul li ul li ul li ul>li a {
-    padding-left: 3.25rem
+      &::before {
+        // content: counter(section) "." counter(subsection) ". ";
+      }
+    }
   }
 }

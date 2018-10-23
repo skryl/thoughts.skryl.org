@@ -24,6 +24,10 @@ To figure out what parts I needed for the swap I simply called tech support and 
 - Left and Right plastic key support - Free
 - Left and Right thumb cluster PCB and ribbon cable - Free
 
+#### Another subsection
+
+With some text
+
 
 ### Tools you will need
 
