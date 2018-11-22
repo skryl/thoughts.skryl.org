@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Uncertainty
-published: true
+published: false
 tags:
   - fiction
 redirect_from:
