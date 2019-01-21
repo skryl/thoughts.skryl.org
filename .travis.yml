@@ -27,7 +27,7 @@ deploy:
   keep-history: true
   local-dir: _site
   target-branch: gh-pages
-  fqdn: tech.skryl.org
+  fqdn: thoughts.skryl.org
   on:
     branch: master
 

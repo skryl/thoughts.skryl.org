@@ -13,11 +13,11 @@ plugins:
 exclude: [vendor]
 
 # Setup
-title:               Tech
+title:               Thoughts
 tagline:             '@skryl.org'
-description:         'Musings on code and technology'
-url:                 http://tech.skryl.org
-repository:          'skryl/tech.skryl.org'
+description:         'Musings on life'
+url:                 http://thoughts.skryl.org
+repository:          'skryl/thoughts.skryl.org'
 baseurl:             ''
 paginate:            5
 host:                localhost
