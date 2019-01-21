@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Thoughts</title>
+ <link href="http://thoughts.skryl.org/atom.xml" rel="self"/>
+ <link href="http://thoughts.skryl.org/"/>
+ <updated>2019-01-21T00:30:30+00:00</updated>
+ <id>http://thoughts.skryl.org</id>
+ <author>
+   <name>Alex Skryl</name>
+   <email>aleksey.skryl@gmail.com</email>
+ </author>
+
+ 
+
+</feed>
