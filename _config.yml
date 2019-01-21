@@ -15,7 +15,7 @@ exclude: [vendor]
 # Setup
 title:               Thoughts
 tagline:             '@skryl.org'
-description:         'Musings on life'
+description:         'Ideas I remembered to scribble down'
 url:                 http://thoughts.skryl.org
 repository:          'skryl/thoughts.skryl.org'
 baseurl:             ''
