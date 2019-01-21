@@ -22,7 +22,7 @@
           .removeClass("notice--danger")
           .addClass("notice--success");
         showAlert(
-          '<strong>Thanks for your comment!</strong> It is <a href="https://github.com/skryl/blog.skryl.org/pulls">currently pending</a> and will show on the site once approved.'
+          '<strong>Thanks for your comment!</strong> It is <a href="https://github.com/skryl/tech.skryl.org/pulls">currently pending</a> and will show on the site once approved.'
         );
       },
       error: function(err) {
